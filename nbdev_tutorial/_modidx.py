@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://sebastianbadea197.github.io',
                 'git_url': 'https://github.com/sebastianbadea197/nbdev-tutorial',
                 'lib_path': 'nbdev_tutorial'},
-  'syms': {'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')}}}
+  'syms': { 'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')},
+            'nbdev_tutorial.test': { 'nbdev_tutorial.test.say_hello': ('test.html#say_hello', 'nbdev_tutorial/test.py'),
+                                     'nbdev_tutorial.test.test_hello_world': ('test.html#test_hello_world', 'nbdev_tutorial/test.py')}}}
